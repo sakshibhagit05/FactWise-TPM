@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = "http://localhost:5000/api/patients";
+const API_URL = "https://factwise-tpm-backend.onrender.com/api/patients";
 
 function getDateKey(date = new Date()) {
   const year = date.getFullYear();
